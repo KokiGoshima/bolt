@@ -12,118 +12,138 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+
     <title>Bolt - Free Bootstrap 3 Theme</title>
   </head>
   <body>
     <!-- headerは常に画面上部固定 -->
     <header>
-      <nav class="navigations">
-        <ul class="list">
-          <li>
-            <a href="#" class="navigations__logo">
-              <i class="fa fa-bolt"></i>
-            </a>
-          </li>
-          <li class="navigations__item">
+      <div class="container flex">
+        <div class="header__left">
+          <a href="#" class="logo">
+            <i class="fa fa-bolt"></i>
+          </a>
+        </div>
+        <div class="header__right">
+          <a href="#" class="right__contact">
             Contact
-          </li>
-        </ul>
-      </nav>
+          </a>
+        </div>
+      </div>
     </header>
 
     <main>
+
       <div class="theme">
-        <h1 class="theme__title">Bolt Template</h1>
-        <!-- after要素で"Awesome Bootstrap Template"記述 -->
+        <div class="container">
+          <h1 class="theme__title">Bolt Template</h1>
+          <!-- after要素で"Awesome Bootstrap Template"記述 -->
+        </div>
       </div>
 
       <section class="what-we-can-do">
-        <div class="what-we-can-do__show_iphone">
-          <img src="img/iphone.png" alt="" class="show_iphone__img">
-        </div>
-        <div class="what-we-can-do__explanation">
-          <h2 class="explanation__title">WHAT WE CAN DO?</h2>
-          <p class="explanation__message">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-           </p>
+        <div class="container flex">
+          <div class="what-we-can-do__show_iphone">
+            <img src="img/iphone.png" alt="" class="show_iphone__img">
+          </div>
+          <div class="what-we-can-do__explanation">
+            <h2 class="explanation__title">WHAT WE CAN DO?</h2>
+            <p class="explanation__message">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
         </div>
       </section>
 
       <article class="our-latest-work">
-        <h2 class="our-latest-work__title">OUR LATEST WORK</h2>
+        <div class="container">
 
-        <div class="our-latest-work__images">
-          <div class="images__list">
-            <img src="img/01.jpg" alt="">
-          </div>
-          <div class="images__list">
-            <img src="img/02.jpg" alt="">
-          </div>
-          <div class="images__list">
-            <img src="img/03.jpg" alt="">
-          </div>
-          <div class="images__list">
-            <img src="img/04.jpg" alt="">
-          </div>
-          <div class="images__list">
-            <img src="img/05.jpg" alt="">
-          </div>
-          <div class="images__list">
-            <img src="img/06.jpg" alt="">
-          </div>
-        </div>
+          <h2 class="our-latest-work__title">OUR LATEST WORK</h2>
 
-        <div class="our-latest-work__message">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever.
-          </p>
+          <div class="our-latest-work__images">
+            <div class="images__list">
+              <img src="img/01.jpg" alt="">
+            </div>
+            <div class="images__list">
+              <img src="img/02.jpg" alt="">
+            </div>
+            <div class="images__list">
+              <img src="img/03.jpg" alt="">
+            </div>
+            <div class="images__list">
+              <img src="img/04.jpg" alt="">
+            </div>
+            <div class="images__list">
+              <img src="img/05.jpg" alt="">
+            </div>
+            <div class="images__list">
+              <img src="img/06.jpg" alt="">
+            </div>
+          </div>
 
-          <a href="#" class="send-message">Email Me!</a>
+          <div class="our-latest-work__summary">
+            <p class="summary__message">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever.
+            </p>
+
+            <a href="#" class="summary__email">Email Me!</a>
+          </div>
         </div>
       </article>
 
       <section class="our-skills">
-        <h2 class="our-skills__title">OUR SKILLS</h2>
-        <div class="our-skills__circles">
-          <div class="circles__list">
-            <img src="img/circle_01.png" alt="">
-            <p>Javascript</p>
-          </div>
-          <div class="circles__list">
-            <img src="img/circle_02.png" alt="">
-            <p>Bootstrap</p>
-          </div>
-          <div class="circles__list">
-            <img src="img/circle_03.png" alt="">
-            <p>Wordpress</p>
-          </div>
-          <div class="circles__list">
-            <img src="img/circle_04.png" alt="">
-            <p>Photoshop</p>
+        <div class="container">
+          <h2 class="our-skills__title">OUR SKILLS</h2>
+          <div class="our-skills__circles">
+            <div class="circles__list">
+              <img src="img/circle_01.png" alt="">
+              <p>Javascript</p>
+            </div>
+            <div class="circles__list">
+              <img src="img/circle_02.png" alt="">
+              <p>Bootstrap</p>
+            </div>
+            <div class="circles__list">
+              <img src="img/circle_03.png" alt="">
+              <p>Wordpress</p>
+            </div>
+            <div class="circles__list">
+              <img src="img/circle_04.png" alt="">
+              <p>Photoshop</p>
+            </div>
           </div>
         </div>
       </section>
 
       <nav class="contact">
-        <div class="contact__list">
-          <i class="fab fa-facebook-f"></i>
-        </div>
-        <div class="contact__list">
-          <i class="fab fa-dribbble"></i>
-        </div>
-        <div class="contact__list">
-          <i class="fab fa-twitter"></i>
-        </div>
-        <div class="contact__list">
-          <i class="fas fa-envelope"></i>
+        <div class="container flex">
+          <div class="contact__list">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="contact__list">
+            <i class="fab fa-dribbble"></i>
+          </div>
+          <div class="contact__list">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="contact__list">
+            <i class="fas fa-envelope"></i>
+          </div>
         </div>
       </nav>
     </main>
 
     <footer>
-      <p>Crafted with<span><i class="fas fa-heart"></i></span>by BlackTie.co.</p>  
+      <div class="container">
+        <p class="crafted-by">
+          Crafted with<span><i class="fas fa-heart"></i></span>by BlackTie.co.
+        </p>
+      </div>
     </footer>
 
 
