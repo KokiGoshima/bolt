@@ -20,7 +20,7 @@ header{
   position: fixed;
   top: 0;
   right: 0;
-  left: 0; 
+  left: 0;
   padding: 15px;
   background-color: white;
 }
@@ -193,4 +193,5 @@ footer{
 .crafted-by{
   float: right;
   font-size: 15px;
+  color: white;
 }
