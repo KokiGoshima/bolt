@@ -46,6 +46,18 @@
     display: none;
   }
 
+  .fa-bars{
+    font-size: 30px;
+    width: 40px;
+  }
+
+  .right__menu{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+
   .logo{
     font-size: 50px;
     color: black;
@@ -139,6 +151,10 @@
 
   .images__list img{
     width: 100%;
+  }
+
+  .images__list:nth-child(3){
+    margin-bottom: 80px;
   }
 
   /* .images__list:nth-child(-n+3){
@@ -244,6 +260,8 @@
     margin: 0 auto;
   }
 
+  /* header */
+
   .menu{
     display: none;
   }
@@ -253,15 +271,8 @@
   }
 
   /* our-latest-work */
-
-  .our-latest-work__images{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-  }
-
   .images__list{
-    margin: 0 auto;
+    text-align: center;
   }
 
   .images__list img{
