@@ -23,6 +23,12 @@
     background-color: white;
   }
 
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
   .header__left{
     float: left;
   }
@@ -176,6 +182,10 @@
     /* justify-content: space-between; */
   }
 
+  .our-skills__title{
+    font-size: 20px;
+  }
+
   /* .our-skills__title, .circles__list p{ */
   .our-skills__title, .circles__list{
     color: white;
@@ -282,8 +292,41 @@
     margin: 0 auto;
   }
 
-  .right__contact{
-    display: block;
+  /* theme */
+  .theme{
+    padding: 250px;
+  }
+
+  /* what we can do */
+
+  .what-we-can-do{
+    padding: 50px 0 0 0;
+  }
+
+  .what-we-can-do .container{
+    display: flex;
+  }
+
+  .what-we-can-do__show_iphone{
+  width: 40%;
+  }
+
+
+  .what-we-can-do__explanation{
+    width: 60%;
+  }
+
+  /* our latest work */
+  .our-latest-work__images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* our skills */
+  .our-skills__circles{
+    display: flex;
+    justify-content: space-between;
   }
 
 
