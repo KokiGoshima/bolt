@@ -71,6 +71,7 @@
     background-color: #f2f2f2;
     text-align: center;
     padding: 160px 0 130px 0  ;
+    margin-top: 80px;
   }
 
   .theme__title{
@@ -303,11 +304,15 @@
     margin: 0 auto;
   }
 
+
   /* theme */
   .theme{
     padding: 250px;
   }
 
+  .theme__title{
+    /* margin: 0 auto; */
+  }
   /* what we can do */
 
   .what-we-can-do{
