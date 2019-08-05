@@ -6,9 +6,6 @@
   margin: 0 auto;
 }
 
-.flex{
-  display: flex;
-}
 
 .clearfix::after {
   content: "";
@@ -44,6 +41,14 @@ header{
   text-decoration: none;
   display: none;
 }
+
+.right__menu{
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
 
 .fa-bars{
   font-size: 30px;
@@ -146,11 +151,15 @@ header{
   margin-bottom: 80px;
 }
 
+.our-latest-work__summary{
+  text-align: center;
+}
+
 .summary__message{
   font-size: 20px;
   color: #333;
   text-align: center;
-  margin-right: 90px;
+  margin-bottom: 40px;
   word-break: break-all;
 }
 
