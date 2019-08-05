@@ -6,11 +6,17 @@
   margin: 0 auto;
 }
 
-/* header */
-
 .flex{
   display: flex;
 }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* header */
 
 header{
   position: fixed;
@@ -21,11 +27,6 @@ header{
   background-color: white;
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
 .header__left{
   float: left;
@@ -49,12 +50,6 @@ header{
   width: 40px;
 }
 
-.right__menu{
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  text-align: center;
-}
 
 .logo{
   font-size: 50px;
@@ -143,7 +138,6 @@ header{
 }
 
 .images__list img{
-  /* width: 100%; */
   width: 300px;
   vertical-align: middle;
 }
