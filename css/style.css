@@ -23,13 +23,18 @@ header{
   background-color: white;
 }
 
+.header{
+  position: relative;
+}
 
 .header__left{
   float: left;
 }
 
 .header__right{
-  float: right;
+  position: absolute;
+  right: 0;
+  top: 14px;
 }
 
 .right__contact{
