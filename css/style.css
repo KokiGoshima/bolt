@@ -78,14 +78,12 @@ header{
   color: #74cfae;
 }
 
-.theme__title::after{
-  content: "FREE BOOTSTRAP THEMES";
-  display: block;
+.theme__title__subtext{
   margin-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
-  margin-top: 20px;
 }
+
 
 /* what-we-can-do */
 
@@ -145,6 +143,7 @@ header{
 .images__list img{
   width: 300px;
   vertical-align: middle;
+  opacity: 0.8;
 }
 
 .images__list:nth-child(3){
@@ -264,9 +263,6 @@ footer{
   }
 
 
-  .summary__email{
-    margin-top: 40px;
-  }
 
   /* our skill */
   .circles__list:not(:last-child
@@ -328,6 +324,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 90px;
   }
 
   .images__list:nth-child(-n+3){
@@ -343,6 +340,11 @@ footer{
   .summary__email{
     margin-top: 0;
     line-height: 32px;
+  }
+
+  .summary__message{
+    margin-bottom: 0;
+    margin-right: 90px;
   }
 
 
