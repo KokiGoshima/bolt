@@ -2,7 +2,7 @@
 /* common */
 
 .container{
-  width: 97%;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@ header{
 .theme{
   background-color: #f2f2f2;
   text-align: center;
-  padding: 160px 0 130px 0  ;
+  padding: 250px;
   margin-top: 80px;
 }
 
@@ -85,15 +85,23 @@ header{
 /* what-we-can-do */
 
 .what-we-can-do{
-  padding: 50px 0 25px 0;
+  padding: 50px 0 0 0;
   background-color: #74cfae;
 }
 
+.what-we-can-do .container{
+  display: flex;
+}
+
+
 .what-we-can-do__show-iphone{
-  width:  100%;
+  width: 40%;
   text-align: center;
 }
 
+.what-we-can-do__explanation{
+  width: 60%;
+}
 
 .explanation__title, .explanation__message{
   text-align: center;
@@ -131,7 +139,17 @@ header{
 
 .our-latest-work__images{
   margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.our-latest-work__summary{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 .images__list{
   text-align: center;
@@ -146,6 +164,7 @@ header{
   margin-bottom: 80px;
 }
 
+
 .summary__message{
   font-size: 20px;
   color: #333;
@@ -157,6 +176,8 @@ header{
 .summary__email{
   font-size: 12px;
   padding: 14px 20px;
+  margin-top: 0;
+  line-height: 32px;
   color: white;
   background-color: #74cfae;
   text-decoration: none;
@@ -164,6 +185,7 @@ header{
   text-align: center;
   width: 20%;
 }
+
 
 /* our-skills */
 .our-skills{
@@ -176,13 +198,18 @@ header{
   font-size: 20px;
 }
 
+.our-skills__circles{
+  display: flex;
+  justify-content: space-between;
+}
+
 .our-skills__title, .circles__list{
   color: white;
   text-align: center;
 }
 
 .circles__list:not(:last-child){
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .our-skills__title{
@@ -221,131 +248,4 @@ footer{
   float: right;
   font-size: 15px;
   color: white;
-}
-
-
-
-@media(min-width: 768px){
-  .container{
-    width: 97%;
-    margin: 0 auto;
-  }
-
-  /* header */
-
-  .right__menu{
-    display: none;
-  }
-
-  .right__contact{
-    display: block;
-  }
-
-  /* our-latest-work */
-  .our-latest-work__images{
-    margin-bottom: 80px;
-  }
-
-  .images__list{
-    text-align: center;
-  }
-
-  .images__list img{
-    width: auto;
-  }
-
-
-  .summary__email{
-    margin-top: 40px;
-  }
-
-  /* our skill */
-  .circles__list:not(:last-child
-    ){
-    margin-bottom: 88px;
-  }
-
-  /* contact */
-
-  .contact{
-    padding: 200px 0;
-  }
-
-  .contact__lists{
-    display: flex;
-    justify-content: center;
-  }
-
-  .lists__item{
-    width: 185px;
-  }
-
-}
-
-@media(min-width: 1200px){
-
-  .container{
-    width: 1100px;
-    margin: 0 auto;
-  }
-
-
-  /* theme */
-  .theme{
-    padding: 250px;
-  }
-
-  /* what we can do */
-
-  .what-we-can-do{
-    padding: 50px 0 0 0;
-  }
-
-  .what-we-can-do .container{
-    display: flex;
-  }
-
-  .what-we-can-do__show-iphone{
-  width: 40%;
-  }
-
-
-  .what-we-can-do__explanation{
-    width: 60%;
-  }
-
-  /* our latest work */
-  .our-latest-work__images{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .images__list:nth-child(-n+3){
-    margin-bottom: 80px;
-  }
-
-  .our-latest-work__summary{
-    display: flex;
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  .summary__email{
-    margin-top: 0;
-    line-height: 32px;
-  }
-
-
-  /* our skills */
-  .our-skills__circles{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .circles__list:not(:last-child){
-    margin-bottom: 0px;
-  }
-
-
 }
