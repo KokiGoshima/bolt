@@ -27,9 +27,7 @@ body{
   z-index: 10;
 }
 
-.header__right{
-  float: right;
-}
+
 
 .right__contact{
   font-size: 12px;
@@ -40,6 +38,15 @@ body{
   transition: color .3s;
   display: inline-block;
   float: right;
+}
+
+.right__menu{
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  float: right;
+  display: none;
 }
 
 .right__contact:hover{
@@ -151,13 +158,13 @@ body{
  }
 
 
- .list__img{
+ .images__list{
   width: 300px;
   opacity: 0.7;
   transition: opacity .3s;
   }
 
-.list__img:hover{
+.images__list:hover{
   opacity: 1.0;
 }
 
@@ -503,132 +510,74 @@ body{
     margin: 0 auto;
   }
 
-  /* header */
-
-  .right__menu{
-    display: none;
-  }
-
-  .right__contact{
-    display: block;
-  }
-
-  /* our-latest-work */
-  .our-latest-work__images{
-    margin-bottom: 80px;
-  }
-
-  .images__list{
-    text-align: center;
-  }
-
-  .images__list img{
-    width: auto;
-  }
-
-
-
-  /* our skill */
-  .circles__list:not(:last-child
-    ){
-    margin-bottom: 88px;
-  }
-
-  /* contact */
-
-  .contact{
-    padding: 200px 0;
-  }
-
-  .contact__lists{
-    display: flex;
-    justify-content: center;
-  }
-
-  .lists__item{
-    width: 185px;
-  }
-
-}
-
-@media(max-width: 767px){
-
-  .inner{
-    width: 1100px;
-    margin: 0 auto;
-  }
-
-
-  /* theme */
-  .theme{
-    padding: 250px 0;
-  }
-
   /* what we can do */
-
   .what-we-can-do{
-    padding: 50px 0 0 0;
+    padding-bottom: 25px;
   }
 
   .what-we-can-do-inner{
-    display: flex;
+    display: block;
   }
 
   .what-we-can-do__show-iphone{
-  width: 400px;
+    width: 100%;
   }
 
-
   .what-we-can-do__explanation{
-    width: 600px;
+    width: 100%;
+  }
+
+  .explanation__title{
+    margin-top: 20px;
   }
 
   /* our latest work */
   .our-latest-work__images{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 90px;
+    display: block;
+    margin-bottom: 80px;
   }
-
 
   .images__list{
-    margin: 0 100px 80px 0;
-  }
-
-  .images__list:nth-child(3n){
-    margin: 0 0 80px 0;
-  }
-
-   .images__list:nth-last-child(-n+3){
-     margin: 0 100px 0 0;
-   }
-
-   .images__list:last-child{
-     margin: 0;
-   }
-
-  .our-latest-work__summary{
-    display: flex;
-    width: 70%;
+    margin: 0;
+    display: block;
     margin: 0 auto;
   }
 
-  .summary__message{
-    margin-bottom: 0;
-    margin-right: 90px;
+  .images__list:nth-child(3n){
+    margin: 0 auto 80px auto;
   }
 
+  .images__list:last-child{
+    margin-bottom: 0;
+  }
+
+  .our-latest-work__summary{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .summary__message{
+    margin-right: 0;
+  }
+
+  .summary__email__text{
+    margin-top: 40px;
+  }
 
   /* our skills */
   .our-skills__circles{
-    display: flex;
-    justify-content: center;
+    display: block;
   }
 
   .circles__list:not(:last-child){
-    margin-bottom: 0px;
-    margin-right: 180px;
+    margin-right: 0;
+    margin-bottom: 88px;
   }
+}
+
+@media(max-width: 767px){
+
 
 
 }
