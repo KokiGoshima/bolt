@@ -20,34 +20,29 @@
   </head>
   <body>
     <!-- headerは常に画面上部固定 -->
-    <header>
-      <div class="inner clearfix">
-        <div class="clearfix header">
-          <div class="header__left">
+    <header class="header">
+        <!-- <div class="clearfix header inner"> -->
+        <div class="clearfix inner header-inner">
             <a href="#" class="logo">
               <i class="fa fa-bolt "></i>
             </a>
-          </div>
-          <div class="header__right">
             <a href="#" class="right__contact">
               Contact
             </a>
-          </div>
         </div>
-      </div>
     </header>
 
     <main>
 
       <div class="theme">
-        <div class="theme__title">
+        <div class="theme__title inner">
           <h1 class="theme__title__text">Bolt Theme</h1>
           <h2 class="theme__title__subtext">FREE BOOTSTRAP THEMES</h2>
         </div>
       </div>
 
       <section class="what-we-can-do">
-        <div class="what-we-can-do-inner">
+        <div class="what-we-can-do-inner inner">
           <div class="what-we-can-do__show-iphone">
             <img src="img/iphone.png" alt="" class="show-iphone__img">
           </div>
@@ -67,45 +62,46 @@
           <h2 class="our-latest-work__title">OUR LATEST WORK</h2>
 
           <div class="our-latest-work__images">
-            <div class="images__list">
-              <a href="#" class="list__img">
+
+              <a href="#" class="list__img images__list">
                 <img src="img/01.jpg" alt="">
               </a>
-            </div>
-            <div class="images__list">
-              <a href="#" class="list__img">
+
+              <a href="#" class="list__img images__list">
                 <img src="img/02.jpg" alt="">
               </a>
-            </div>
-            <div class="images__list">
-              <a href="#" class="list__img">
+
+              <a href="#" class="list__img images__list">
                 <img src="img/03.jpg" alt="">
               </a>
-            </div>
-            <div class="images__list">
-              <a href="#" class="list__img">
+
+              <a href="#" class="list__img images__list">
                 <img src="img/04.jpg" alt="">
               </a>
-            </div>
-            <div class="images__list">
-              <a href="#" class="list__img">
+
+              <a href="#" class="list__img images__list">
                 <img src="img/05.jpg" alt="">
               </a>
-            </div>
-            <div class="images__list">
-              <a href="#" class="list__img">
+
+              <a href="#" class="list__img images__list">
                 <img src="img/06.jpg" alt="">
               </a>
+
             </div>
+
           </div>
 
           <div class="our-latest-work__summary">
+
             <p class="summary__message">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever.
             </p>
 
-            <a href="#" class="summary__email">Email Me!</a>
+            <div class="summary__email">
+              <a href="#" class="summary__email__text">Email Me!</a>
+            </div>
+
           </div>
         </div>
       </article>
@@ -154,7 +150,7 @@
       </nav>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="inner clearfix">
         <p class="crafted-by">
           Crafted with<span><i class="fas fa-heart"></i></span>by BlackTie.co.
