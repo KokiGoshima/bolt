@@ -7,47 +7,39 @@
     <meta name="description" content="This is my portfolio site.">
     <meta name="keywords" content="bolt, bootstrap, portfolio">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- 順番決まってる -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/base.css">
 
     <title>Bolt - Free Bootstrap 3 Theme</title>
   </head>
   <body>
     <!-- headerは常に画面上部固定 -->
-    <header>
-      <div class="inner clearfix">
-          <a href="#" class="logo header__left">
-            <i class="fa fa-bolt "></i>
-          </a>
-
-          <div class="right__menu header__right ">
-            <i class="fas fa-bars"></i>
-          </div>
-
-          <a href="#" class="right__contact header__right">
-            Contact
-          </a>
-
-      </div>
+    <header class="header">
+        <!-- <div class="clearfix header inner"> -->
+        <div class="clearfix inner header-inner">
+            <a href="#" class="logo">
+              <i class="fa fa-bolt "></i>
+            </a>
+            <a href="#" class="right__contact">
+              Contact
+            </a>
+        </div>
     </header>
 
-    <main>
+    <main class="main">
 
       <div class="theme">
-        <div class="inner">
-          <h1 class="theme__title">Bolt Theme</h1>
+        <div class="theme__title inner">
+          <h1 class="theme__title__text">Bolt Theme</h1>
           <h2 class="theme__title__subtext">FREE BOOTSTRAP THEMES</h2>
         </div>
       </div>
 
       <section class="what-we-can-do">
-        <div class="inner what-we-can-do-inner">
+        <div class="what-we-can-do-inner inner">
           <div class="what-we-can-do__show-iphone">
             <img src="img/iphone.png" alt="" class="show-iphone__img">
           </div>
@@ -67,37 +59,45 @@
           <h2 class="our-latest-work__title">OUR LATEST WORK</h2>
 
           <div class="our-latest-work__images">
-            <div class="images__list">
-              <img src="img/01.jpg" alt="">
-            </div>
-            <div class="images__list">
-              <img src="img/02.jpg" alt="">
-            </div>
-            <div class="images__list">
-              <img src="img/03.jpg" alt="">
-            </div>
-            <div class="images__list">
-              <img src="img/04.jpg" alt="">
-            </div>
-            <div class="images__list">
-              <img src="img/05.jpg" alt="">
-            </div>
-            <div class="images__list">
-              <img src="img/06.jpg" alt="">
-            </div>
-          </div>
 
-          <div class="our-latest-work__summary">
-            <p class="summary__message">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever.
-            </p>
+              <a href="#" class="list__img images__list">
+                <img src="img/01.jpg" alt="">
+              </a>
 
-            <div class="summary__email">
+              <a href="#" class="list__img images__list">
+                <img src="img/02.jpg" alt="">
+              </a>
+
+              <a href="#" class="list__img images__list">
+                <img src="img/03.jpg" alt="">
+              </a>
+
+              <a href="#" class="list__img images__list">
+                <img src="img/04.jpg" alt="">
+              </a>
+
+              <a href="#" class="list__img images__list">
+                <img src="img/05.jpg" alt="">
+              </a>
+
+              <a href="#" class="list__img images__list">
+                <img src="img/06.jpg" alt="">
+              </a>
+
+            </div>
+
+            <div class="our-latest-work__summary">
+
+              <p class="summary__message">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever.
+              </p>
+
               <a href="#" class="summary__email__text">Email Me!</a>
+
             </div>
           </div>
-        </div>
+
       </article>
 
       <section class="our-skills">
@@ -106,19 +106,19 @@
           <div class="our-skills__circles">
             <div class="circles__list">
               <img src="img/circle_01.png">
-              <p>Javascript</p>
+              <p class="list__text">Javascript</p>
             </div>
             <div class="circles__list">
               <img src="img/circle_02.png">
-              <p>Bootstrap</p>
+              <p class="list__text">Bootstrap</p>
             </div>
             <div class="circles__list">
               <img src="img/circle_03.png">
-              <p>Wordpress</p>
+              <p class="list__text">Wordpress</p>
             </div>
             <div class="circles__list">
               <img src="img/circle_04.png">
-              <p>Photoshop</p>
+              <p class="list__text">Photoshop</p>
             </div>
           </div>
         </div>
@@ -127,24 +127,24 @@
       <nav class="contact">
         <div class="inner">
           <div class="contact__lists">
-            <div class="lists__item">
+            <a href="#" class="lists__item">
               <i class="fab fa-facebook-f"></i>
-            </div>
-            <div class="lists__item">
+            </a>
+            <a href="#" class="lists__item">
               <i class="fab fa-dribbble"></i>
-            </div>
-            <div class="lists__item">
+            </a>
+            <a href="#" class="lists__item">
               <i class="fab fa-twitter"></i>
-            </div>
-            <div class="lists__item">
+            </a>
+            <a href="#" class="lists__item">
               <i class="fas fa-envelope"></i>
-            </div>
+            </a>
           </div>
         </div>
       </nav>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="inner clearfix">
         <p class="crafted-by">
           Crafted with<span><i class="fas fa-heart"></i></span>by BlackTie.co.
