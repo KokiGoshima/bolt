@@ -6,7 +6,6 @@
   margin: 0 auto;
 }
 
-
 .clearfix::after {
   content: "";
   display: block;
@@ -311,12 +310,12 @@ footer{
   }
 
   .what-we-can-do__show-iphone{
-  width: 40%;
+  width: 400px;
   }
 
 
   .what-we-can-do__explanation{
-    width: 60%;
+    width: 600px;
   }
 
   /* our latest work */
