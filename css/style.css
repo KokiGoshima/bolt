@@ -132,3 +132,30 @@ body {
   display: inline-block;
   vertical-align: top;
 }
+
+.main__skills {
+  background-color: #4e4e4e;
+  padding: 70px 0 100px 0;
+}
+
+.main__skills__title {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: Raleway;
+  color: white;
+}
+
+.main__skills__image {
+  display: inline-block;
+  margin-left: 180px;
+}
+
+.main__skills__image:first-child {
+  margin-left: 0;
+}
+
+.main__skills__image > p {
+  text-align: center;
+  margin-top: 8px;
+}
