@@ -159,3 +159,29 @@ body {
   text-align: center;
   margin-top: 8px;
 }
+
+.main__sns {
+  background-color: #f2f2f2; /* あとでまとめる */
+  padding: 200px 0;
+}
+
+.main__sns__images {
+  text-align: center;
+}
+
+.main__sns__image {
+  width: 185px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0;
+  transition: background-color .3s;
+}
+
+.main__sns__image:hover {
+  background-color: white;
+}
+
+.main__sns__image i {
+  color: #74cfae;
+  font-size: 40px;
+}
