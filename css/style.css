@@ -113,7 +113,7 @@ body {
 }
 
 .main__work__contact {
-  display: inline-block;
+  text-align: center;
 }
 
 .main__work__contact__text {
