@@ -185,3 +185,13 @@ body {
   color: #74cfae;
   font-size: 40px;
 }
+
+.footer {
+  background-color: #74cfae; /* あとでまとめる */
+  padding: 20px 0 25px 0;
+}
+
+.footer__text {
+  color: white;
+  text-align: right;
+}
