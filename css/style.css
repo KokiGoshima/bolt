@@ -10,7 +10,13 @@ body {
   margin: 0 auto;
 }
 
-/* -----↓↓↓header↓↓↓------ */
+.header {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
 .header-inner {
   padding: 15px 0;
   display: flex;
@@ -30,7 +36,6 @@ body {
   color: white;
   text-decoration: none;
 }
-/* -----↑↑↑header↑↑↑------ */
 
 .main__theme {
   background-color: #f2f2f2;
