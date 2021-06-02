@@ -20,6 +20,7 @@ body {
 
 .header__logo {
   font-size: 45px;
+  color: #333;
 }
 
 .header__contact {
@@ -155,9 +156,10 @@ body {
   margin-left: 0;
 }
 
-.main__skills__image > p {
+.main__skills__image__text {
   text-align: center;
   margin-top: 8px;
+  color: white;
 }
 
 .main__sns {
