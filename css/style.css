@@ -46,3 +46,32 @@
   font-size: 30px;
   color: #c0c0c0;
 }
+
+.main__description {
+  background-color: #74cfae;
+  padding-top: 50px;
+}
+
+.main__description-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__description__text {
+  padding-top: 20px;
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  color: white;
+}
+
+.main__description__text__title {
+  font-size: 24px;
+  font-family: Raleway;
+  margin-bottom: 35px;
+}
+
+.main__description__text__explanation {
+  font-size: 20px;
+  word-break: break-all;
+}
