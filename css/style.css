@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* -----↓↓↓header↓↓↓------ */
+.header-inner {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-size: 45px;
+  color: #333;
+}
+
+.header__contact {
+  padding: 14px 12px;
+  font-size: 12px;
+  background-color: #74cfae;
+  color: white;
+  text-decoration: none;
+}
+/* -----↑↑↑header↑↑↑------ */
