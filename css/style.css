@@ -5,6 +5,11 @@ body {
   color: #333;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -17,17 +22,24 @@ body {
 .green-button {
   font-size: 12px;
   background-color: #74cfae;
-  color: white;
+  color: #fff;
   text-decoration: none;
   transition: color .3s;
 }
 
+.header__contact:hover,
+.main__work__contact__button:hover
+{
+  color: #333;
+}
+
 .header {
-  background-color: white;
+  background-color: #fff;
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 10;
+  left: 0;
+  z-index: 1000;
 }
 
 .header-inner {
@@ -39,15 +51,10 @@ body {
 
 .header__logo {
   font-size: 45px;
-  color: #333;
 }
 
 .header__contact {
   padding: 14px 12px;
-}
-
-.header__contact:hover {
-  color: #333;
 }
 
 .main {
@@ -67,12 +74,12 @@ body {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
-  margin-bottom: 20px;
 }
 
 .main__theme__sub-title {
   font-size: 30px;
   color: #c0c0c0;
+  margin-top: 20px;
 }
 
 .main__description {
@@ -86,21 +93,21 @@ body {
 }
 
 .main__description__text {
-  padding-top: 20px;
+  margin-top: 20px;
   display: inline-block;
-  width: 600px;
+  width: 54%;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .main__description__text__title {
   font-size: 24px;
-  margin-bottom: 35px;
 }
 
 .main__description__text__explanation {
   font-size: 20px;
-  word-break: break-all;
+  margin-top: 35px;
+  width: 100%;
 }
 
 .main__work {
@@ -110,13 +117,12 @@ body {
 
 .main__work__title {
   font-size: 24px;
-  margin-bottom: 40px;
   text-align: center;
 }
 
 .main__work__images {
   font-size: 0;
-  margin-bottom: 90px;
+  margin-top: 40px;
 }
 
 .main__work__image {
@@ -139,6 +145,7 @@ body {
 }
 
 .main__work__contact {
+  margin-top: 90px;
   text-align: center;
 }
 
@@ -146,17 +153,13 @@ body {
   font-size: 20px;
   margin-right: 90px;
   display: inline-block;
-  width: 500px;
+  width: 50%;
 }
 
 .main__work__contact__button {
   padding: 14px 20px;
   vertical-align: top;
   display: inline-block;
-}
-
-.main__work__contact__button:hover {
-  color: #333;
 }
 
 .main__skills {
@@ -166,12 +169,12 @@ body {
 
 .main__skills__title {
   font-size: 24px;
-  margin-bottom: 40px;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .main__skills__images {
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -187,7 +190,7 @@ body {
 .main__skills__image__text {
   text-align: center;
   margin-top: 8px;
-  color: white;
+  color: #fff;
 }
 
 .main__sns {
@@ -208,7 +211,7 @@ body {
 }
 
 .main__sns__image:hover {
-  background-color: white;
+  background-color: #fff;
 }
 
 .main__sns__image i {
@@ -222,6 +225,6 @@ body {
 }
 
 .footer__text {
-  color: white;
+  color: #fff;
   text-align: right;
 }
