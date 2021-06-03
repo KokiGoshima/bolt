@@ -33,6 +33,10 @@ a {
   color: #333;
 }
 
+.text-align {
+  text-align: center;
+}
+
 .header {
   background-color: #fff;
   width: 100%;
@@ -66,10 +70,6 @@ a {
   padding: 250px 0;
 }
 
-.main__theme-inner {
-  text-align: center;
-}
-
 .main__theme__title {
   font-size: 90px;
   font-weight: 700;
@@ -96,7 +96,6 @@ a {
   margin-top: 20px;
   display: inline-block;
   width: 54%;
-  text-align: center;
   color: #fff;
 }
 
@@ -117,7 +116,6 @@ a {
 
 .main__work__title {
   font-size: 24px;
-  text-align: center;
 }
 
 .main__work__images {
@@ -147,7 +145,6 @@ a {
 
 .main__work__contact {
   margin-top: 90px;
-  text-align: center;
 }
 
 .main__work__contact__text {
@@ -170,13 +167,11 @@ a {
 
 .main__skills__title {
   font-size: 24px;
-  text-align: center;
   color: #fff;
 }
 
 .main__skills__images {
   margin-top: 40px;
-  text-align: center;
 }
 
 .main__skills__image {
@@ -189,7 +184,6 @@ a {
 }
 
 .main__skills__image__text {
-  text-align: center;
   margin-top: 8px;
   color: #fff;
 }
@@ -199,14 +193,9 @@ a {
   padding: 200px 0;
 }
 
-.main__sns__images {
-  text-align: center;
-}
-
 .main__sns__image {
   width: 185px;
   display: inline-block;
-  text-align: center;
   padding: 20px 0;
   transition: background-color .3s;
 }
