@@ -15,7 +15,6 @@ body {
 }
 
 .green-button {
-  padding: 14px 12px;
   font-size: 12px;
   background-color: #74cfae;
   color: white;
@@ -43,8 +42,16 @@ body {
   color: #333;
 }
 
+.header__contact {
+  padding: 14px 12px;
+}
+
 .header__contact:hover {
   color: #333;
+}
+
+.main {
+  padding-top: 75px;
 }
 
 .main__theme {
@@ -143,7 +150,9 @@ body {
 }
 
 .main__work__contact__button {
+  padding: 14px 20px;
   vertical-align: top;
+  display: inline-block;
 }
 
 .main__work__contact__button:hover {
@@ -160,6 +169,10 @@ body {
   margin-bottom: 40px;
   text-align: center;
   color: white;
+}
+
+.main__skills__images {
+  text-align: center;
 }
 
 .main__skills__image {
