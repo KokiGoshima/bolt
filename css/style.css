@@ -218,3 +218,11 @@ a {
   color: #fff;
   text-align: right;
 }
+
+@media(max-width: 1199px) {
+  
+}
+
+@media(max-width: 767px) {
+  
+}
