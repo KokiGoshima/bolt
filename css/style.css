@@ -61,6 +61,13 @@ a {
   padding: 14px 12px;
 }
 
+.header__hamburger {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
 .main {
   padding-top: 75px;
 }
@@ -226,5 +233,11 @@ a {
 }
 
 @media(max-width: 767px) {
+  .header__contact {
+    display: none;
+  }
   
+  .header__hamburger {
+    display: block;
+  }
 }
