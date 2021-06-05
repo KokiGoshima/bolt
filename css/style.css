@@ -290,4 +290,13 @@ a {
   .header__hamburger {
     display: block;
   }
+
+  .main__sns {
+    padding: 50px 0;
+  }
+
+  .main__sns__image {
+    display: block;
+    width: 100%;
+  }
 }
