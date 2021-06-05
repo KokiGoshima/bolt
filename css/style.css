@@ -201,6 +201,10 @@ a {
   padding: 200px 0;
 }
 
+.main__sns__images {
+  font-size: 0;
+}
+
 .main__sns__image {
   width: 185px;
   display: inline-block;
