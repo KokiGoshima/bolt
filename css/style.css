@@ -265,12 +265,16 @@ a {
     margin: 0 auto;
   }
 
-  .main__work__image:nth-child(3n) {
-    margin: 0 auto 80px;
+  .main__work__image:nth-child(n+4) {
+    margin-top: 0;
   }
 
-  .main__work__image:last-child {
-    margin-bottom: 0;
+  .main__work__image:nth-child(3n+1) {
+    margin: 80px auto 0;
+  }
+
+  .main__work__image:first-child {
+    margin-top: 0;
   }
 
   .main__work__contact {
